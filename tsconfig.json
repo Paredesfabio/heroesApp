@@ -8,6 +8,7 @@
       "@heroes/*": ["src/app/heroes/*"],
       "@shared/*": ["src/app/shared/*"],
       "@material/*": ["src/app/material/*"],
+      "@environments/*": ["src/environments/*"],
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
