@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Delete {{data.superhero}}</h1>
+<div mat-dialog-content>
+  <p>Are you sure to eliminate this superhero? This action is not reversible.</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()" color="warn">Cancel</button>
+  <button mat-button (click)="onConfirm()" color="primary" cdkFocusInitial>Confirm</button>
+</div>
